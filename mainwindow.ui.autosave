@@ -74,17 +74,13 @@
       <widget class="QWidget" name="page">
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QLabel" name="label">
-          <property name="styleSheet">
-           <string notr="true">font: 14pt &quot;黑体&quot;;</string>
-          </property>
-          <property name="text">
-           <string>航班信息</string>
-          </property>
-         </widget>
-        </item>
-        <item>
          <widget class="QTableWidget" name="looktable">
+          <property name="minimumSize">
+           <size>
+            <width>872</width>
+            <height>562</height>
+           </size>
+          </property>
           <column>
            <property name="text">
             <string>航班号</string>
@@ -130,6 +126,16 @@
             <string>目的地</string>
            </property>
           </column>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>航班信息</string>
+          </property>
          </widget>
         </item>
        </layout>
@@ -264,9 +270,9 @@
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>220</y>
+          <y>190</y>
           <width>871</width>
-          <height>351</height>
+          <height>361</height>
          </rect>
         </property>
         <column>

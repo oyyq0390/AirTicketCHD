@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    loadData("D://College//QTProject//zuoye//jipiaoshuju.txt");
+    loadData("D://QT//QT projects//keshe//AirTicketCHD//jipiaoshuju.txt");
 }
 
 MainWindow::~MainWindow()
